@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteinerkattasi{
+    width: 90%;
+    height: 90%;
+    border: 4px solid #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: relative;
+}
+.conPlusMinus{
+    width: 130px;
+    height: 50px;
+    border: 4px solid #000;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conPlusMinus button{
+    font-size: 30px;
+    border: 1px solid transparent;
+    background-color: #fff;
+}
+.conPlusMinus2{
+    width: 130px;
+    height: 50px;
+    border: 4px solid #000;
+    position: absolute;
+    top: 10px;
+    right: 50%;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conPlusMinus2 button{
+    font-size: 30px;
+    border: 1px solid transparent;
+    background-color: #fff;
+}
+.conLeft{
+    width: 47%;
+    height: 85%;
+     border: 4px solid #000;
+     border-radius: 20px;
+     margin-top: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     flex-direction: column;
+     padding: 0 0 90px 0;
+    }
+    .conLeft h1{
+        font-family: sans-serif;
+        margin-bottom: 20px;
+    }
+    .conRight{
+        width: 47%;
+        height: 85%;
+        border: 4px solid #000;
+        border-radius: 20px ;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+        padding: 0 0 90px 0;
+    }
+    .conRight h1{
+        font-family: sans-serif;
+        margin-bottom: 20px;
+    }
+    .lefttopcomponend{
+        width: 80%;
+        height: 33%;
+        border: 4px solid #000;
+        border-radius: 20px;
+    }
+    .lefttopcomponend h1{
+        font-size: 28px;
+        margin: 10px 0 0 10px;
+    }
+    .lefttopcomponendDiv{
+        margin: 10px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .lefttopcomponendDiv h2{
+        font-size: 28px;
+    }
+    .lefttopcomponendDiv h3{
+        font-size: 28px;
+    }
+    .lefttopcomponendDiv2{
+        margin: 10px 20px 0 0;
+        display: flex;
+        gap: 10px;
+        justify-content: end;
+        align-items: center;
+    }
+    .lefttopcomponendDiv2 button{
+        font-size: 20px;
+        padding: 5px;
+        color: black;
+        background-color: #fff;
+        border: 4px solid black ;
+    }
+
+
+    .leftbottomcomponend{
+    width: 80%;
+    height: 33%;
+    border: 4px solid #000;
+    border-radius: 20px;
+}
+.leftbottomcomponend h1{
+    font-size: 28px;
+    margin: 10px 0 0 10px;
+}
+.leftbottomcomponendDivIkki{
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.leftbottomcomponendDivIkki h2{
+    font-size: 28px;
+}
+.leftbottomcomponendDivIkki h3{
+    font-size: 28px;
+}
+.lefbottomcomponendDiv2Ikki{
+    margin: 10px 20px 0 0;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+}
+.lefbottomcomponendDiv2Ikki button{
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    background-color: #fff;
+    border: 4px solid black ;
+}
+
+
+
+.lefttopcomponend2{
+    width: 80%;
+    height: 33%;
+    border: 4px solid #000;
+    border-radius: 20px;
+}
+.lefttopcomponend2 h1{
+    font-size: 28px;
+    margin: 10px 0 0 10px;
+}
+.RightbottomcomponendDivIkki{
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.RightbottomcomponendDivIkki h2{
+    font-size: 28px;
+}
+.RightbottomcomponendDivIkki h3{
+    font-size: 28px;
+}
+.RightbottomcomponendDiv2Ikki{
+    margin: 10px 20px 0 0;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+}
+.RightbottomcomponendDiv2Ikki button{
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    background-color: #fff;
+    border: 4px solid black ;
+}
+
+
+
+
+.leftbottomcomponend2{
+    width: 80%;
+    height: 33%;
+    border: 4px solid #000;
+    border-radius: 20px;
+}
+.leftbottomcomponend2 h1{
+    font-size: 28px;
+    margin: 10px 0 0 10px;
+}
+.RightbottomcomponendDivIkki2{
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.RightbottomcomponendDivIkki2 h2{
+    font-size: 28px;
+}
+.RightbottomcomponendDivIkki2 h3{
+    font-size: 28px;
+}
+.RightbottomcomponendDiv2Ikki2{
+    margin: 10px 20px 0 0;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+}
+.RightbottomcomponendDiv2Ikki2 button{
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    background-color: #fff;
+    border: 4px solid black ;
+}
