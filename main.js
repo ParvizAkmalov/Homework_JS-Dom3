@@ -14,7 +14,7 @@ let rbcdikki2ikki2 = document.querySelector(".rbcdikki2ikki2")
 let rbcdikk2 = document.querySelector(".rbcdikk2")
 let rbcdikk22 = document.querySelector(".rbcdikk22")
 let rbcdikk23 = document.querySelector(".rbcdikk23")
-
+  
 rbcdikk22.onclick = () => {
     rbcdikk2.innerHTML++
 }
@@ -59,18 +59,30 @@ lefttopcomponendDiv2btn.onclick = () => {
     }
   }
 MinusKatta.onclick = () => {
-   uzgaruvchi.innerHTML++
-   uzgaruvchi2.innerHTML++
+   rbcdikk2.innerHTML++
+rbcdikki2.innerHTML++
+ltcdikki.innerHTML++
+  Lettopcd2.innerHTML++
 }
 MinusKatta2.onclick = () => {
-   if(uzgaruvchi.innerHTML == 1){
-    uzgaruvchi.innerHTML = 1
+  if(rbcdikk2.innerHTML == 0){
+    rbcdikk2.innerHTML = 0
    }else{
-    uzgaruvchi.innerHTML--
+    rbcdikk2.innerHTML--
    }
-   if(uzgaruvchi2.innerHTML == 2){
-    uzgaruvchi2.innerHTML = 2
+if(rbcdikki2.innerHTML == 0){
+    rbcdikki2.innerHTML = 0
    }else{
-    uzgaruvchi2.innerHTML--
+    rbcdikki2.innerHTML--
+   }
+if(ltcdikki.innerHTML == 0){
+    ltcdikki.innerHTML = 0
+   }else{
+    ltcdikki.innerHTML--
+   }
+if(Lettopcd2.innerHTML == 0){
+    Lettopcd2.innerHTML = 0
+   }else{
+    Lettopcd2.innerHTML--
    }
  }
